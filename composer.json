@@ -1,0 +1,15 @@
+{
+    "name": "tkotosz/fooapp-awesome-extension",
+    "type": "tkotosz-fooapp-extension",
+    "require": {
+        "tkotosz/fooapp-src": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tkotosz\\FooApp\\AwesomeExtension\\": "src"
+        }
+    },
+    "extra": {
+        "tkotosz-fooapp-extension-class": "Tkotosz\\FooApp\\AwesomeExtension\\AwesomeExtension"
+    }
+}
