@@ -1,6 +1,7 @@
 {
     "name": "tkotosz/fooapp-awesome-extension",
     "type": "tkotosz-fooapp-extension",
+    "license": "MIT",
     "require": {
         "tkotosz/fooapp-src": "*"
     },
